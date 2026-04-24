@@ -519,8 +519,6 @@ with right_col:
         results = {}
         all_probs_list = []
 
-        import tensorflow as tf
-
         model_names = list(models.keys())
         for i, (name, model) in enumerate(models.items()):
             progress_bar.progress((i + 1) / len(models),
